@@ -22,8 +22,6 @@
  */
 const process = (args) => {
   const { x, y, operation } = args;
-
-  // TODO: write your code here...
 };
 
 const VALID_INPUT = {
@@ -65,7 +63,7 @@ describe("decision", () => {
       }
     );
 
-    it.each(["x", null, "y"])(
+    it.each(["x", "y"])(
       "should throw when operation unknown",
       (operation) => {
         expect(() => process({ ...VALID_INPUT, operation })).toThrowError(
