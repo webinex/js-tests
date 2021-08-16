@@ -1,0 +1,14 @@
+{
+  "name": "js-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Siarhei Skalaban",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/jest": "^27.0.1",
+    "jest": "^27.0.6"
+  }
+}
